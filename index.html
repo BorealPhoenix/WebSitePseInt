@@ -10,10 +10,10 @@
 	<!-- Añado el fondo de la página web -->
 	<style>
 		body {
-			background: url("img/fondo2.jpg") black;	
+			background: url("img/fondo1.jpg") black;	
 		}
 	</style>
-	<title>Resumen PSEINT</title>
+	<title>WebSite PSEINT</title>
 </head>
 <body>
 	<!-- Creamos un div contenedor para que todos los elementos de la página queden centrados, por esto se ven los bordes a ambos lados de la página -->
@@ -21,10 +21,10 @@
 		<!-- Header de la página, barra de búsqueda y categorías -->
 		<header>
 			<div class="logo">
-				<img src="(pon aqui alguna imagen)" alt="foto de perfil" 
+				<img src="img/logopseint.png" alt="foto de perfil" 
 					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
-				<h1>Resumen PSEINT</h1>
-				(Aqui puedes poner los nicks de github de los miembros del proyecto y una descripcion)
+				<h1>WebSite PSeInt</h1>
+				<i>Rubén Plazas, Juan Maria Nolasco y Pablo Sutil</i>
 			</div>
 			<form action="">
 				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
@@ -32,10 +32,10 @@
 			<div class="categorias" id="categorias">
 				<!-- Nombres de los menús -->
 				<a href="#">Inicio</a>
-				<a href="#">Base de datos</a>
-				<a href="#">Programación</a>
-				<a href="#">Desarrollo Web</a>
-				<a href="#">Contacto</a>
+				<a href="#">Caracteristicas</a>
+				<a href="#">Funciones PSeInt</a>
+				<a href="#">Proyecto</a>
+				<a href="#">Tutoriales</a>
 			</div>
 		</header>
 
@@ -54,8 +54,8 @@
 			<div class="item" 
 				 data-categoria="inicio"
 				 data-etiquetas=""
-				 data-descripcion="Base de datos"
-			>
+				 data-descripcion="Base de datos">
+
 				<div class="item-contenido">
 					<h1>Bases de datos</h1>
 					<br>
@@ -143,14 +143,11 @@
 				 data-descripcion=""
 			>
 				<div class="titulo">
-					<h1>Bases de datos</h1>
+					<h1>PSeInt</h1>
 				</div>
 				<div>
-					<h1>SQL</h1>
-					
-						SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje de dominio específico 
-						utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.
-					
+					<h1>¿Que es?</h1>
+					<!--Meter descripcion del PSeint, creador y demas, Parte de JUANMA +¿Caracteristicas?-->
 				</div>
 				<div>
 					<h2>-Oracle</h2>
@@ -199,7 +196,7 @@
 				</div>
 			</div>
 
-			<!--Programación-->
+			<!--Estructuras de Control y Bucles-->
 			
 			
 			<!-- Aquí escribimos lo que se mostrará sobre programación en el menú "programación"
@@ -208,27 +205,108 @@
 				 de la barra de búsqueda >
 			-->
 				<div 
-					data-categoria="programación"
-					data-etiquetas="bash BASH java JAVA powershell POWERSHELL pyton PYTON javascript JAVASCRIPT c C react REACT angular ANGULAR android ANDROID NODE node JS js
-										SPRING spring SERVLETS servlets"
+					data-categoria="estructuras de control"
+					data-etiquetas="funciones Funciones escribir Escribir leer Leer asignar Asignar
+					condicionales Condicionales repetitivas Repetitivas Si-Entonces si-entonces segun Segun Mientras mientras Repetir repetir para Para Funcion funcion"
 					data-descripcion=""
 				>
 					<div class="titulo">
-						<h1>Programas Java</h1>
+						<h1>Funciones</h1>
 					</div>
 					<div>
-						<h1>Lenguajes de programación</h1>
+						<h1>Basicas</h1>
+						<p>A continuacion veremos las funciones mas básicas de PSeInt</p>
+
+						<br>
+
+						<ol type="1">
+							<b><li>Escribir</li></b>
+							<p>Permite escribir un objeto definido anteriormente en la consola de comandos o una 
+								palabra entrecomillada ("...")
+							</p>
+							<img src="img/escribir1.PNG" alt="imagen if" 
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+
+
+							<br></br>
+
+
+							<p>Ahora vamos a explicar mejor todas las partes de la imagen:</p>
+
+							<i>1- Esta parte es la del codigo, la funcion de escritura se añade dandole click a 'Escribir' en la barra izquierda. 	
+							</i>
+							<img src="img/escribir2.png" alt="imagen if" 
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+
+							<br></br>
+
+							<i>Puedes añadir una palabra entre comillas o por ejemplo una funcion que hayas leido antes</i>
+							<img src="img/escribir3.png" alt="imagen if" 
+							style="max-width:80%; width:auto; height:auto; border-radius: 10px;">
+						
+							<br></br>
+							<i>2- Una vez comprobado que el codigo funciona, podemos ver su estructura dandole al siguiente icono de la barra de arriba:</i>
+							<br>
+							<img src="img/escribir4.png" alt="imagen if" 
+							style="max-width:80%; width:auto; height:auto; border-radius: 10px;">
+
+							<br></br>
+
+							<i>Se desplegaría la siguiente ventana:</i>
+							<br>
+							<img src="img/escribir5.png" alt="imagen if" 
+							style="max-width:50%; width:auto; height:auto; border-radius: 10px;">
+							<img src="img/escribir6.png" alt="imagen if" 
+							style="max-width:50%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+							<i>Y ya de paso podemos apreciar como se representa una palabra escrita en el Diagrama de Flujo, con el romboide verde
+								y la palabra o el nombre de la variables escrito dentro
+							</i>
+						</ol>
+						</ol>
+
+
+
+						<h1>Estructuras de Control</h1>
 						<br>
 						<ol type="1">
-							<li>Bash</li>
-							<li>PowerShell</li>
-							<li>Pyton</li>
-							<li>Java</li>
-							<li>JavaScript</li>
-							<li>C (Arduino)</li>
+							<b><li>If</li></b>
+							<p>Es una sentencia de control que implica que se pueda realizar una accion en funcion de un caso determinado
+								<br>En español equivale a un "Si...(caso)"
+							</p>
+							<img src="img/imagenIf.png" alt="imagen if" 
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+								<i>
+									Aqui podemos ver una imagen que muestra como se vería en un diagrama de flujo esta sentencia
+								</i>
+
+							<br></br>
+
+							<b><li>While</li></b>
+							<p>
+								Esta sentencia de control, realizará la acción que se le ordene mientras se cumpla un caso determinado
+							</p>
+							<img src="img/while.jpg" alt="imagen if" 
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<i>La sentencia de la imagen, vista tanto en diagrama de flujo como en código en si, representa quede
+								mientras que no se introduzca el numero '0', el programa seguirá sumando los números que se le introduzcan
+							</i>
+
+							<br></br>
+
+							<b><li>If-Else</li></b>
+							<p>Es una sentencia como el if, pero que te permite añadir una accion por defecto a realizar en 
+								caso de que no se cumpla ninguno de los casos anteriores
+							</p>
+							<img src="img/imagenIfElse.jpg" alt="imagen if" 
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<i>En la imagen podemos apreciar como definimos un algoritmo que segun la nota que se saque
+								se puede dar un caso "Aprobado" o en su defecto un caso "Desaprobado/Suspenso". El 'Sino' equivaldría al 'Else' en este caso
+							</i>
 						</ol> 
 						<br>
-						<h1>Programación lado cliente (frontend)</h1>
+						<h1>Bucles</h1>
 						<br>
 						<ol type="1">
 							<li>React</li>
