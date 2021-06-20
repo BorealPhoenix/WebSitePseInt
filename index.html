@@ -13,7 +13,7 @@
 			background: url("img/fondo2.jpg") black;	
 		}
 	</style>
-	<title>Portfolio - Nola01</title>
+	<title>Resumen PSEINT</title>
 </head>
 <body>
 	<!-- Creamos un div contenedor para que todos los elementos de la página queden centrados, por esto se ven los bordes a ambos lados de la página -->
@@ -21,15 +21,16 @@
 		<!-- Header de la página, barra de búsqueda y categorías -->
 		<header>
 			<div class="logo">
-				<img src="https://avatars.githubusercontent.com/u/75415863?s=400&u=5bb9deed694c0177b13f5d35cadce9872d96460d&v=4" alt="foto de perfil" 
+				<img src="(pon aqui alguna imagen)" alt="foto de perfil" 
 					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
-				<h1>Nola01</h1>
-				Desarrollador Freelance
+				<h1>Resumen PSEINT</h1>
+				(Aqui puedes poner los nicks de github de los miembros del proyecto y una descripcion)
 			</div>
 			<form action="">
 				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
 			</form>
 			<div class="categorias" id="categorias">
+				<!-- Nombres de los menús -->
 				<a href="#">Inicio</a>
 				<a href="#">Base de datos</a>
 				<a href="#">Programación</a>
@@ -45,8 +46,10 @@
 			<!-- Inicio 
 				En este apartado va todo lo que se muestra en el menú inicio -->
 
-			<!-- Aquí escribimos lo que se mostrará sobre base de datos en el menú "inicio"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div>
+			<!-- Aquí escribimos lo que se mostrará sobre el primer menú en el menú inicio a modo de resumen.
+				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
+				Por ejemplo, en este caso la categoría es inicio porque va todo en el menú
+				inicio. El atributo data-descripcion es el nombre del menú del que estamos hablando
 			-->
 			<div class="item" 
 				 data-categoria="inicio"
@@ -65,8 +68,8 @@
 				</div>
 			</div>
 
-			<!-- Aquí escribimos lo que se mostrará sobre programación en el menú "inicio"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div>
+			<!-- Aquí escribimos lo que se mostrará sobre el segundo menú en el menú inicio
+				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
 			<div class="item" 
 				 data-categoria="inicio"
@@ -84,8 +87,8 @@
 				</div>
 			</div>
 
-			<!-- Aquí escribimos lo que se mostrará sobre desarrollo web en el menú "inicio"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div>
+			<!-- Aquí escribimos lo que se mostrará sobre el tercer menú en el menú inicio
+				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
 			<div class="item" 
 				 data-categoria="inicio"
@@ -104,8 +107,8 @@
 				</div>
 			</div>
 
-			<!-- Aquí escribimos lo que se mostrará sobre contacto en el menú "inicio"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div>
+			<!-- Aquí escribimos lo que se mostrará sobre el cuarto menú en el menú inicio
+				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
 			<div class="item"
 				 data-categoria="inicio"
@@ -124,13 +127,15 @@
 				</div>
 			</div>
 
-			<!-- Bases de datos -->
+			<!-- Menú 1 (por ejemplo ¿Que es PSEINT?) -->
 			
 
-			<!-- Aquí escribimos lo que se mostrará sobre base de datos en el menú "base de datos"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
-				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
-				 de la barra de búsqueda >
+			<!-- Aquí escribimos lo que se mostrará sobre (lo que sea) en el primer menú.
+				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div,
+				 y data-etiquetas para vincular unas etiquetas especificas para poder encontrar este div a través
+				 de la barra de búsqueda (por ejemplo PSEINT, definicion...).
+				 data-descripcion puede estar vacio.
+				 A partir de aqui añade o elimina los menús que quieras, es todo igual que este asi que no voy a comentar los siguientes
 			-->
 			<div
 				 data-categoria="base de datos"
