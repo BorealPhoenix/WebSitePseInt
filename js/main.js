@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 	grid.refreshItems().layout();
 	document.getElementById('grid').classList.add('elementos-cargados');
 
-	// Agregamos los listener de los enlaces para filtrar por categoria.
+	// Agregamos los listener para filtrar por categoria.
 	const enlaces = document.querySelectorAll('#categorias a');
 	enlaces.forEach((elemento) => {
 		elemento.addEventListener('click', (evento) => {
