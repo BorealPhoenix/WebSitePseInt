@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,19 @@
 	<!-- Añado el fondo de la página web -->
 	<style>
 		body {
-			background: url("img/fondo1.jpg") black;	
+			background: url("img/fondo1.jpg") black;
 		}
 	</style>
 	<title>WebSite PSEINT</title>
 </head>
+
 <body>
 	<!-- Creamos un div contenedor para que todos los elementos de la página queden centrados, por esto se ven los bordes a ambos lados de la página -->
 	<div class="contenedor">
 		<!-- Header de la página, barra de búsqueda y categorías -->
 		<header>
 			<div class="logo">
-				<img src="img/logopseint.png" alt="foto de perfil" 
+				<img src="img/logoPseint.png" alt="foto de perfil"
 					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
 				<h1>WebSite PSeInt</h1>
 				<i>Rubén Plazas, Juan Maria Nolasco y Pablo Sutil</i>
@@ -51,84 +53,70 @@
 				Por ejemplo, en este caso la categoría es inicio porque va todo en el menú
 				inicio. El atributo data-descripcion es el nombre del menú del que estamos hablando
 			-->
-			<div class="item" 
-				 data-categoria="inicio"
-				 data-etiquetas=""
-				 data-descripcion="Base de datos">
+			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="Base de datos">
 
 				<div class="item-contenido">
 					<h1>Bases de datos</h1>
 					<br>
 					<a href="#base de datos">
-						<img class="contenedor" src="img/Bases_de_datos_de_particulares.jpg" alt="basededatos" 
+						<img class="contenedor" src="img/Bases_de_datos_de_particulares.jpg" alt="basededatos"
 							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-						</a>
+					</a>
 					<br>
-					Para más información vaya al menú "base de datos"		
+					Para más información vaya al menú "base de datos"
 				</div>
 			</div>
 
 			<!-- Aquí escribimos lo que se mostrará sobre el segundo menú en el menú inicio
 				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
-			<div class="item" 
-				 data-categoria="inicio"
-				 data-etiquetas=""
-				 data-descripcion="Java"
-			>
+			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="Java">
 				<div class="item-contenido">
 					<h1>Programación</h1>
 					<br>
 					<a href="#programación">
-						<img src="img/Java-Debugging-Tips-881x441.jpg" alt="java" style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-						</a>
+						<img src="img/Java-Debugging-Tips-881x441.jpg" alt="java"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+					</a>
 					<br>
-					Para más información vaya al menú "Programación"		
+					Para más información vaya al menú "Programación"
 				</div>
 			</div>
 
 			<!-- Aquí escribimos lo que se mostrará sobre el tercer menú en el menú inicio
 				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
-			<div class="item" 
-				 data-categoria="inicio"
-				 data-etiquetas=""
-				 data-descripcion="HTML5 y CSS3"
-			>
+			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="HTML5 y CSS3">
 				<div class="item-contenido">
 					<h1>Desarrollo Web</h1>
 					<br>
 					<a href="#desarrollo web">
-						<img src="img/CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="html5 y css3" 
+						<img src="img/CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="html5 y css3"
 							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-						</a>
+					</a>
 					<br>
-					Para más información vaya al menú "Desarrollo Web"		
+					Para más información vaya al menú "Desarrollo Web"
 				</div>
 			</div>
 
 			<!-- Aquí escribimos lo que se mostrará sobre el cuarto menú en el menú inicio
 				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
 			-->
-			<div class="item"
-				 data-categoria="inicio"
-				 data-etiquetas=""
-				 data-descripcion=""
-			>
+			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="">
 				<div class="item-contenido">
 					<h1>Contacto</h1>
 					<br>
 					<a href="#contacto">
-						<img src="https://avatars.githubusercontent.com/u/75415863?s=400&u=5bb9deed694c0177b13f5d35cadce9872d96460d&v=4" alt="foto de perfil" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-						</a>
+						<img src="https://avatars.githubusercontent.com/u/75415863?s=400&u=5bb9deed694c0177b13f5d35cadce9872d96460d&v=4"
+							alt="foto de perfil" style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+					</a>
 					<br>
-					Para más información vaya al menú "Contacto"	
+					Para más información vaya al menú "Contacto"
 				</div>
 			</div>
 
 			<!-- Menú 1 (por ejemplo ¿Que es PSEINT?) -->
-			
+
 
 			<!-- Aquí escribimos lo que se mostrará sobre (lo que sea) en el primer menú.
 				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div,
@@ -137,11 +125,8 @@
 				 data-descripcion puede estar vacio.
 				 A partir de aqui añade o elimina los menús que quieras, es todo igual que este asi que no voy a comentar los siguientes
 			-->
-			<div
-				 data-categoria="base de datos"
-				 data-etiquetas="base bases de datos sql SQL oracle ORACLE mysql MYSQL"
-				 data-descripcion=""
-			>
+			<div data-categoria="caracteristicas" data-etiquetas="base bases de datos sql SQL oracle ORACLE mysql MYSQL"
+				data-descripcion="">
 				<div class="titulo">
 					<h1>PSeInt</h1>
 				</div>
@@ -152,15 +137,19 @@
 				<div>
 					<h2>-Oracle</h2>
 					<p>
-						Oracle es una herramienta para la gestión de bases de datos, usada principalmente por las grandes empresas 
-						para que estas puedan controlar y gestionar una gran cantidad de contenidos desde un solo archivo.
+						Oracle es una herramienta para la gestión de bases de datos, usada principalmente por las
+						grandes empresas
+						para que estas puedan controlar y gestionar una gran cantidad de contenidos desde un solo
+						archivo.
 					</p>
 				</div>
 				<div>
 					<h2>-MySQL</h2>
 					<p>
-						MySQL sirve para almacenar toda la información que se desee en bases de datos relacionales, como también para 
-						administrar todos estos datos sin apenas complicaciones gracias a su interfaz visual y a todas las opciones y 
+						MySQL sirve para almacenar toda la información que se desee en bases de datos relacionales, como
+						también para
+						administrar todos estos datos sin apenas complicaciones gracias a su interfaz visual y a todas
+						las opciones y
 						herramientas de las que dispone.
 					</p>
 				</div>
@@ -169,179 +158,332 @@
 
 				<div>
 					<h1>NoSQL</h1>
-						NoSQL (a veces llamado "no solo SQL") es una amplia clase de sistemas de gestión de bases de datos que 
-						difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, 
-						siendo el más destacado que no usan SQL como lenguaje principal de consultas.
+					NoSQL (a veces llamado "no solo SQL") es una amplia clase de sistemas de gestión de bases de datos
+					que
+					difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos
+					importantes,
+					siendo el más destacado que no usan SQL como lenguaje principal de consultas.
 				</div>
 				<div>
 					<h2>-Redis</h2>
 					<p>
-						Redis es un motor de base de datos en memoria, basado en el almacenamiento en tablas de hashes (clave/valor) 
+						Redis es un motor de base de datos en memoria, basado en el almacenamiento en tablas de hashes
+						(clave/valor)
 						pero que opcionalmente puede ser usada como una base de datos durable o persistente.
 					</p>
 				</div>
 				<div>
 					<h2>-Mongo DB</h2>
 					<p>
-						MongoDB es una base de datos distribuida, basada en documentos y de uso general que ha sido diseñada para 
+						MongoDB es una base de datos distribuida, basada en documentos y de uso general que ha sido
+						diseñada para
 						desarrolladores de aplicaciones modernas y para la era de la nube.
 					</p>
 				</div>
 				<div>
 					<h2>-Firebase</h2>
 					<p>
-						Firebase Realtime Database es una base de datos alojada en la nube. Los datos se almacenan en formato JSON 
+						Firebase Realtime Database es una base de datos alojada en la nube. Los datos se almacenan en
+						formato JSON
 						y se sincronizan en tiempo real con cada cliente conectado.
 					</p>
 				</div>
 			</div>
 
 			<!--Estructuras de Control y Bucles-->
-			
-			
+
+
 			<!-- Aquí escribimos lo que se mostrará sobre programación en el menú "programación"
 				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
 				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
 				 de la barra de búsqueda >
 			-->
-				<div 
-					data-categoria="estructuras de control"
-					data-etiquetas="funciones Funciones escribir Escribir leer Leer asignar Asignar
+			<div data-categoria="funciones pseint"
+				data-etiquetas="funciones Funciones escribir Escribir leer Leer asignar Asignar
 					condicionales Condicionales repetitivas Repetitivas Si-Entonces si-entonces segun Segun Mientras mientras Repetir repetir para Para Funcion funcion"
-					data-descripcion=""
-				>
-					<div class="titulo">
-						<h1>Funciones</h1>
-					</div>
-					<div>
-						<h1>Basicas</h1>
-						<p>A continuacion veremos las funciones mas básicas de PSeInt</p>
-
-						<br>
-
-						<ol type="1">
-							<b><li>Escribir</li></b>
-							<p>Permite escribir un objeto definido anteriormente en la consola de comandos o una 
-								palabra entrecomillada ("...")
-							</p>
-							<img src="img/escribir1.PNG" alt="imagen if" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-
-
-							<br></br>
-
-
-							<p>Ahora vamos a explicar mejor todas las partes de la imagen:</p>
-
-							<i>1- Esta parte es la del codigo, la funcion de escritura se añade dandole click a 'Escribir' en la barra izquierda. 	
-							</i>
-							<img src="img/escribir2.png" alt="imagen if" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-
-							<br></br>
-
-							<i>Puedes añadir una palabra entre comillas o por ejemplo una funcion que hayas leido antes</i>
-							<img src="img/escribir3.png" alt="imagen if" 
-							style="max-width:80%; width:auto; height:auto; border-radius: 10px;">
-						
-							<br></br>
-							<i>2- Una vez comprobado que el codigo funciona, podemos ver su estructura dandole al siguiente icono de la barra de arriba:</i>
-							<br>
-							<img src="img/escribir4.png" alt="imagen if" 
-							style="max-width:80%; width:auto; height:auto; border-radius: 10px;">
-
-							<br></br>
-
-							<i>Se desplegaría la siguiente ventana:</i>
-							<br>
-							<img src="img/escribir5.png" alt="imagen if" 
-							style="max-width:50%; width:auto; height:auto; border-radius: 10px;">
-							<img src="img/escribir6.png" alt="imagen if" 
-							style="max-width:50%; width:auto; height:auto; border-radius: 10px;">
-							<br>
-							<i>Y ya de paso podemos apreciar como se representa una palabra escrita en el Diagrama de Flujo, con el romboide verde
-								y la palabra o el nombre de la variables escrito dentro
-							</i>
-						</ol>
-						</ol>
-
-
-
-						<h1>Estructuras de Control</h1>
-						<br>
-						<ol type="1">
-							<b><li>If</li></b>
-							<p>Es una sentencia de control que implica que se pueda realizar una accion en funcion de un caso determinado
-								<br>En español equivale a un "Si...(caso)"
-							</p>
-							<img src="img/imagenIf.png" alt="imagen if" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-							<br>
-								<i>
-									Aqui podemos ver una imagen que muestra como se vería en un diagrama de flujo esta sentencia
-								</i>
-
-							<br></br>
-
-							<b><li>While</li></b>
-							<p>
-								Esta sentencia de control, realizará la acción que se le ordene mientras se cumpla un caso determinado
-							</p>
-							<img src="img/while.jpg" alt="imagen if" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-							<i>La sentencia de la imagen, vista tanto en diagrama de flujo como en código en si, representa quede
-								mientras que no se introduzca el numero '0', el programa seguirá sumando los números que se le introduzcan
-							</i>
-
-							<br></br>
-
-							<b><li>If-Else</li></b>
-							<p>Es una sentencia como el if, pero que te permite añadir una accion por defecto a realizar en 
-								caso de que no se cumpla ninguno de los casos anteriores
-							</p>
-							<img src="img/imagenIfElse.jpg" alt="imagen if" 
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-							<i>En la imagen podemos apreciar como definimos un algoritmo que segun la nota que se saque
-								se puede dar un caso "Aprobado" o en su defecto un caso "Desaprobado/Suspenso". El 'Sino' equivaldría al 'Else' en este caso
-							</i>
-						</ol> 
-						<br>
-						<h1>Bucles</h1>
-						<br>
-						<ol type="1">
-							<li>React</li>
-							<li>Angular</li>
-							<li>Android</li>
-						</ol>
-						<br>
-						<h1>Programación lado servidor (backend)</h1>
-						<ol type="1">
-							<li>NodeJS</li>
-							<li>Spring Java</li>
-							<li>Java Servlets</li>
-						</ol> 
-					</div>
+				data-descripcion="">
+				<div class="titulo">
+					<h1>Funciones</h1>
 				</div>
+				<div>
+					<h1>-Basicas</h1>
+					<p>A continuacion veremos las funciones mas básicas de PSeInt</p>
+
+					<br>
+
+					<ol type="1">
+						<!--DEFINIR-->
+						<b>
+							<li>Definir</li>
+						</b>
+						<p>PSeInt te permite definir una variable como numero real, con comas, como un caracter...</p>
+
+						<img src="img/definir1.PNG" alt="definir codigo"
+						style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Definir como Caracter = Defines como una palabra/letra, encerrado en comillas ("...")
+							<br>
+							Definir como Entero = Defines como un numero entero, sin puntos o comandos
+							<br>
+							Definir como Logico = Defines como Boolean, o es Verdado, o Falso.. (V/F)
+							<br>
+							Definir como Real = Defines como un numero, pero este si admite comas o puntos
+						</i>
+
+						<br></br>
+
+						<!--ESCRIBIR-->
+						<b>
+							<li>Escribir</li>
+						</b>
+						<i>Esta parte es la del codigo, la funcion de escritura se añade dandole click a 'Escribir' en
+							la barra izquierda.
+						</i>
+						<img src="img/escribir2.png" alt="algoritmo escribir codigo"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+
+						<br></br>
+
+						<i>Puedes añadir una palabra entre comillas o por ejemplo una funcion que hayas leido antes</i>
+						<img src="img/escribir3.png" alt="algoritmo escribir codigo v2"
+							style="max-width:80%; width:auto; height:auto; border-radius: 10px;">
+
+						<br></br>
+
+						<!--LEER-->
+						<b>
+							<li>Leer</li>
+						</b>
+						<p>La función 'Leer' permite al IDE leer una frase introducida en la consola de comandos, la
+							cual quedará guardada en la variable
+							cuyo nombre se defina despues de leer.
+						</p>
+						<br></br>
+						<img src="img/leer1.PNG" alt="codigo leer"
+							style="max-width:90%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Esta imagen representa el ejemplo de como leer una frase introducida en la consola de
+							ejecución,
+							y que luego el PSeInt guardará en la variable 'fraseALeer'
+						</i>
+
+						<!--ASIGNAR-->
+						<br></br>
+						<b>
+							<li>Asignar</li>
+						</b>
+						<p>La funcion 'Asignar' sirve para darle un valor a una variable mediante una expresion,
+							puede ser un valor introducido en la propia expresion, o asignarle otra variable creada
+							anteriormente.
+						</p>
+						<img src="img/asignar1.PNG" alt="codigo asignar 1"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>En esta imagen podemos ver que le asignamos a 'variable' la palabra 'hola'. Vamos a ejecutar
+							el código
+							para que se vea la diferencia entre el primer valor de 'variable' y el segundo.
+						</i>
+						<br></br>
+						<img src="img/asignar2.PNG" alt="ejecucion codigo asignar 1"
+							style="max-width:60%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Como se puede apreciar, al leer la variable le hemos introducido el valor 'adios', pero
+							cuando le hemos asignado el valor 'hola' a la variable, se ha cambiado ese 'hola' por el
+							'adios' que le hemos asignado
+						</i>
+
+						<br></br>
+						<img src="img/asignar3.PNG" alt="codigo asignar 2"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<i>En este codigo vamos a hacer el segundo ejemplo de asignacion que habiamos hablado,
+							en este caso vamos a leer 2 variable, y vamos a asignarle una de las que leamos a la otra...
+						</i>
+						<br></br>
+						<img src="img/asignar4.PNG" alt="codigo asignar 2"
+							style="max-width:60%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Como podemos comprobar, a 'variable1' le hemos asginado el valor 'hola', y ha 'variable2' el
+							valor 'adios'. De primeras 'variable1' contenia 'hola', pero cuando le hemos asignado el
+							valor
+							de 'variable2' a 'variable1', ese 'hola' a sido reemplazado por un 'adios'
+						</i>
+					</ol>
+
+					<br></br>
+
+					<h1>-Estructuras de Control</h1>
+					<br>
+					<ol type="1">
+						<!--SI-ENTONCES-->
+						<b>
+							<li>Si-Entonces</li>
+						</b>
+						<p>Es una sentencia de control que implica que se pueda realizar una accion en funcion de
+							cumplirse un caso determinado
+							y permite asignar un valor por defecto en caso de que no se cumpliera dicho caso
+						</p>
+						<img src="img/siEntonces1.PNG" alt="codigo si-entonces"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>
+							Aqui podemos ver un ejemplo donde vamos a calcular la nota de un alumno.
+							Si la nota es mayor de 5, esta aprobado, pero de lo contrario, esta suspendido
+						</i>
+						<br></br>
+						<img src="img/siEntonces2.PNG" alt="ejecucion codigo si-entonces 1"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<img src="img/siEntonces3.PNG" alt="ejecucion codigo si-entonces 2"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Ejemplos de ejecucion del codigo</i>
+						<br></br>
+
+						<!--SEGUN-->
+						<b>
+							<li>Segun</li>
+						</b>
+						<p>
+							Esta sentencia de control es como el Si-Entonces, pero ofrece muchos casos en vez de uno.
+							Tambien te
+							permite meter un caso por defecto en caso de que no se cumpla el resto
+						</p>
+						<img src="img/segun1.PNG" alt="codigo segun"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Tenemos un codigo con el que le pasamos un numero a través de la consola, y nos devuelve un
+							color
+						</i>
+						<br></br>
+						<img src="img/segun2.PNG" alt="ejecucion codigo segun 1"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<img src="img/segun4.PNG" alt="ejecucion codigo segun 3"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<img src="img/segun5.PNG" alt="ejecucion codigo segun 4"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<img src="img/segun3.PNG" alt="ejecucion codigo segun 2"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>Aqui tenemos varios ejemplos de ejecucion del codigo</i>
+						<br></br>
+					</ol>
+					<br>
+
+
+
+					<h1>-Bucles</h1>
+					<br>
+					<ol type="1">
+						<!--MIENTRAS-->
+						<b><li>Mientras</li></b>
+
+
+						<p>Es el primer bucle que vamos a ver. Lo que te permite un bucle es realizar una accion
+							un numero indeterminado de veces mientras se cumpla una expresion logica, o se cumpla una
+							expresion
+							de salida de bucle
+						</p>
+						<img src="img/mientras1.PNG" alt="codigo mientras"
+							style="max-width:700%; width:auto; height:auto; border-radius: 10px;">
+						<br>
+						<i>En este codigo, el PSeInt va a escribir el numero introducido hasta 10, independientemente
+							de en que numero empieze
+						</i>
+						<br></br>
+						<img src="img/mientras2.PNG" alt="ejecucion codigo mientras 1"
+							style="max-width:25%; width:auto; height:auto; border-radius: 10px;">
+							<img src="img/mientras5.PNG" alt="ejecucion codigo mientras 2"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+							<img src="img/mientras4.PNG" alt="ejecucion codigo mientras 3"
+							style="max-width:25%; width:auto; height:auto; border-radius: 10px;">
+							<img src="img/mientras3.PNG" alt="ejecucion codigo mientras 4"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+							<i>
+								Podemos ver como efectivamente van saliendo todos los numeros hasta que llega a 10
+								, donde se detiene la ejecución
+							</i>
+
+							<br></br>
+
+						<!--REPETIR-->
+						<b><li>Repetir</li></b>
+							<p>Este es un bucle mas propiamente dicho, dado que repite una secuencia de acciónes hasta que se cumpla
+								una expresion lógica, en caso de no cumplirse, seguirá ejecutando las acciones
+							</p>
+							<img src="img/repetir1.PNG" alt="codigo repetir"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+
+							<i>Hemos cogido el mismo ejemplo de antes, pero con 'Repetir'. Introduces un numero, y 
+								este se irá incrementando hasta ser =10
+							</i>
+
+							<br></br>
+						<img src="img/repetir2.PNG" alt="ejecucion codigo repetir 1"
+							style="max-width:30%; width:auto; height:auto; border-radius: 10px;">
+							<img src="img/repetir3.PNG" alt="ejecucion codigo repetir 2"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+							<img src="img/repetir4.PNG" alt="ejecucion codigo repetir 3"
+							style="max-width:27%; width:auto; height:auto; border-radius: 10px;">
+							<img src="img/repetir5.PNG" alt="ejecucion codigo repetir 4"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<br>
+							<i>Ejemplos de codigo, que verifican que el codigo llega hasta 10 desde el numero introducido
+								por consola, y finaliza el codigo
+							</i>
+
+						<!--PARA-->
+						<b><li>Para</li></b>
+						<p>
+							Nos permite ejecutar pasos a un ritmo que nosotros queramos, con una variable final
+							y una variable numerica a la que le asignamos un valor principal. Mientras ira ejecutando
+							una secuencia de acciones
+						</p>
+						<br>
+						<img src="img/para1.PNG" alt="ejecucion codigo repetir 3"
+							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
+							<i>Aqui tenemos el codigo que, como en los ejemplos anterioes, vamos a hacer que se 
+								muestren todos los numeros hasta el 10
+							</i>
+							<br>
+							<img src="img/para2.PNG" alt="ejecucion codigo repetir 3"
+							style="max-width:27%; width:auto; height:auto; border-radius: 10px;">
+					</ol>
+					<br>
+
+
+
+
+					<h1>-Diagramas De Flujo</h1>
+					<ol type="1">
+						<li>NodeJS</li>
+						<li>Spring Java</li>
+						<li>Java Servlets</li>
+					</ol>
+				</div>
+			</div>
 			<!--Desarrollo Web-->
-			
+
 
 			<!-- Aquí escribimos lo que se mostrará sobre desarrollo web en el menú "desarrollo web"
 				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
 				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
 				 de la barra de búsqueda >
 			-->
-			<div 
-				 data-categoria="desarrollo web"
-				 data-etiquetas="html HTML 5 JavaScript javascript JAVASCRIPT vanilla VANILLA CSS3 css3 webapps WEBAPPS"
-				 data-descripcion=""
-			>
+			<div data-categoria="proyecto"
+				data-etiquetas="html HTML 5 JavaScript javascript JAVASCRIPT vanilla VANILLA CSS3 css3 webapps WEBAPPS"
+				data-descripcion="">
 				<div class="titulo">
 					<h1>Desarrollo Web</h1>
 				</div>
 				<div>
 					<h1>HTML5</h1>
-					HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, 
-					define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, 
+					HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de
+					páginas web en sus diferentes versiones,
+					define una estructura básica y un código (denominado HTML) para la definición de contenido de una
+					página web, como texto, imágenes, vídeos,
 					juegos, entre otros…
 				</div>
 
@@ -349,14 +491,16 @@
 
 				<div>
 					<h1>JavaScript Vanilla</h1>
-					Vanilla JavaScript es como se conoce al lenguaje JavaScript cuando se utiliza sin ninguna librería o framework.
+					Vanilla JavaScript es como se conoce al lenguaje JavaScript cuando se utiliza sin ninguna librería o
+					framework.
 				</div>
 
 				<br>
 
 				<div>
 					<h1>CSS3</h1>
-					CSS significa Cascade Style Sheets, también llamado Hojas de Estilo en Cascada. CSS es un lenguaje de marcado que se emplea para dar 
+					CSS significa Cascade Style Sheets, también llamado Hojas de Estilo en Cascada. CSS es un lenguaje
+					de marcado que se emplea para dar
 					formato a un sitio web. Es decir, funciona en conjunto con los archivos HTML.
 				</div>
 
@@ -364,41 +508,43 @@
 
 				<div>
 					<h1>WebApps</h1>
-					El concepto de WebApp se define por ser una versión de la página web adaptada y optimizada para cualquier dispositivo móvil, sin una previa instalación 
-					y la posibilidad de abrirla desde cualquier navegador sin importar el sistema operativo que estés utilizando.
+					El concepto de WebApp se define por ser una versión de la página web adaptada y optimizada para
+					cualquier dispositivo móvil, sin una previa instalación
+					y la posibilidad de abrirla desde cualquier navegador sin importar el sistema operativo que estés
+					utilizando.
 				</div>
 			</div>
 
 			<!-- Contacto -->
-			
+
 			<!-- Aquí escribimos lo que se mostrará sobre contacto en el menú "contacto"
 				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
 				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
 				 de la barra de búsqueda >
 			-->
-			<div
-				 data-categoria="contacto"
-				 data-etiquetas="contacto CONTACTO autor AUTOR acerca de ACERCA DE sobre mi SOBRE MI"
-				 data-descripcion=""
-			>
+			<div data-categoria="tutoriales"
+				data-etiquetas="contacto CONTACTO autor AUTOR acerca de ACERCA DE sobre mi SOBRE MI"
+				data-descripcion="">
 				<div class="titulo">
 					<h1>Sobre mi</h1>
 				</div>
 				<div>
-					¡Hola! Soy Nola, desarrollador multiplataforma, actualmente freelancer. Especializado en programación en Java, desarrollo web con HTML5, CSS y JS, y 
+					¡Hola! Soy Nola, desarrollador multiplataforma, actualmente freelancer. Especializado en
+					programación en Java, desarrollo web con HTML5, CSS y JS, y
 					gestión de bases de datos.
 				</div>
 				<div class="titulo">
 					<h1>Contacto</h1>
 				</div>
 				<div>
-					Si quieres contactar conmigo, puedes hacerlo a través de mis redes sociales (puedes acceder a ellas haciendo click en los 
+					Si quieres contactar conmigo, puedes hacerlo a través de mis redes sociales (puedes acceder a ellas
+					haciendo click en los
 					iconos que hay más abajo).
 					<br>
-					También puedes enviarme un email a la dirección: 
+					También puedes enviarme un email a la dirección:
 				</div>
 			</div>
-				
+
 		</section>
 
 		<footer class="contenedor">
@@ -407,25 +553,28 @@
 				no tengo redes sociales
 			 -->
 			<div class="titulo">
-				<h1>	
-				<a href='https://www.freepik.es/vectores/fondo'>Imagen de fondo</a>
+				<h1>
+					<a href='https://www.freepik.es/vectores/fondo'>Imagen de fondo</a>
 				</h1>
-			</div>	
+			</div>
 			<div class="redes-sociales">
 				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)');	event.preventDefault();" href="#" target="_blank" class="twitter">
+					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)');	event.preventDefault();" href="#"
+						target="_blank" class="twitter">
 						<i class="fab fa-twitter"></i>
-						
+
 					</a>
 				</div>
 				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#" target="_blank" class="facebook">
+					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#"
+						target="_blank" class="facebook">
 						<i class="fab fa-facebook-f"></i>
-						
+
 					</a>
 				</div>
 				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#" target="_blank" class="instagram">
+					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#"
+						target="_blank" class="instagram">
 						<i class="fab fa-instagram"></i>
 					</a>
 				</div>
@@ -438,4 +587,5 @@
 	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
