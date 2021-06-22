@@ -33,7 +33,7 @@
 			</form>
 			<div class="categorias" id="categorias">
 				<!-- Nombres de los menús -->
-				<a href="#">Inicio</a>
+				<a href="#">Introducción</a>
 				<a href="#">Caracteristicas</a>
 				<a href="#">Funciones PSeInt</a>
 				<a href="#">Proyecto</a>
@@ -48,74 +48,36 @@
 			<!-- Inicio 
 				En este apartado va todo lo que se muestra en el menú inicio -->
 
-			<!-- Aquí escribimos lo que se mostrará sobre el primer menú en el menú inicio a modo de resumen.
-				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
-				Por ejemplo, en este caso la categoría es inicio porque va todo en el menú
-				inicio. El atributo data-descripcion es el nombre del menú del que estamos hablando
-			-->
-			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="Base de datos">
+			<!-- Aquí escribimos una introduccion -->
+			<div data-categoria="introducción" data-etiquetas="" data-descripcion="Base de datos">
 
-				<div class="item-contenido">
-					<h1>Bases de datos</h1>
-					<br>
-					<a href="#base de datos">
-						<img class="contenedor" src="img/Bases_de_datos_de_particulares.jpg" alt="basededatos"
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-					</a>
-					<br>
-					Para más información vaya al menú "base de datos"
-				</div>
+					<div class="titulo">
+						<h1>PSeInt</h1>
+					</div>
+					<h1>¿Qué es PSEINT?</h1>
+					<div>
+						<img src="img/introduccion.jpg" alt="foto de perfil"
+						style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+						PSeInt es la abreviatura de los estados de computación de PSeudo Intérprete, una herramienta educativa utilizada principalmente por estudiantes para aprender 
+						los fundamentos de la programación y el desarrollo de la lógica. Utiliza pseudocódigo para la solución de algoritmos.
+					</div>
+					
+					<h1>¿Para que sirve PSEINT?</h1>
+					<div>
+						<img src="img/pseint.jpg" alt="foto de perfil"
+						style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+
+						PSeInt está pensado para asistir a los estudiantes que se inician en la construcción de programas o algoritmos computacionales.
+						El pseudocódigo se suele utilizar como primer contacto para introducir conceptos básicos como el uso de estructuras de control, expresiones, variables, etc, 
+						sin tener que lidiar con las particularidades de la sintaxis de un lenguaje real. 
+					</div>
+					<div>
+						Este software pretende facilitar la tarea de escribir algoritmos en este pseudolenguaje presentando un conjunto de ayudas y asistencias, 
+						y dar ademas algunas herramientas adicionales que ayuden a encontrar errores y comprender la lógica de los algoritmos.
+					</div>
 			</div>
 
-			<!-- Aquí escribimos lo que se mostrará sobre el segundo menú en el menú inicio
-				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
-			-->
-			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="Java">
-				<div class="item-contenido">
-					<h1>Programación</h1>
-					<br>
-					<a href="#programación">
-						<img src="img/Java-Debugging-Tips-881x441.jpg" alt="java"
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-					</a>
-					<br>
-					Para más información vaya al menú "Programación"
-				</div>
-			</div>
-
-			<!-- Aquí escribimos lo que se mostrará sobre el tercer menú en el menú inicio
-				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
-			-->
-			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="HTML5 y CSS3">
-				<div class="item-contenido">
-					<h1>Desarrollo Web</h1>
-					<br>
-					<a href="#desarrollo web">
-						<img src="img/CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="html5 y css3"
-							style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-					</a>
-					<br>
-					Para más información vaya al menú "Desarrollo Web"
-				</div>
-			</div>
-
-			<!-- Aquí escribimos lo que se mostrará sobre el cuarto menú en el menú inicio
-				Usamos el atributo data-categoria para indicar a qué categoría pertenece este div (el menú donde se mostrará)
-			-->
-			<div class="item" data-categoria="inicio" data-etiquetas="" data-descripcion="">
-				<div class="item-contenido">
-					<h1>Contacto</h1>
-					<br>
-					<a href="#contacto">
-						<img src="https://avatars.githubusercontent.com/u/75415863?s=400&u=5bb9deed694c0177b13f5d35cadce9872d96460d&v=4"
-							alt="foto de perfil" style="max-width:100%; width:auto; height:auto; border-radius: 10px;">
-					</a>
-					<br>
-					Para más información vaya al menú "Contacto"
-				</div>
-			</div>
-
-			<!-- Menú 1 (por ejemplo ¿Que es PSEINT?) -->
+			<!-- Caracteristicas -->
 
 
 			<!-- Aquí escribimos lo que se mostrará sobre (lo que sea) en el primer menú.
@@ -123,81 +85,128 @@
 				 y data-etiquetas para vincular unas etiquetas especificas para poder encontrar este div a través
 				 de la barra de búsqueda (por ejemplo PSEINT, definicion...).
 				 data-descripcion puede estar vacio.
-				 A partir de aqui añade o elimina los menús que quieras, es todo igual que este asi que no voy a comentar los siguientes
 			-->
 			<div data-categoria="caracteristicas" data-etiquetas="base bases de datos sql SQL oracle ORACLE mysql MYSQL"
 				data-descripcion="">
-				<div class="titulo">
-					<h1>PSeInt</h1>
-				</div>
+				
+				<h1>Caracteristicas y Funcionalidades de PSeInt</h1>
 				<div>
-					<h1>¿Que es?</h1>
-					<!--Meter descripcion del PSeint, creador y demas, Parte de JUANMA +¿Caracteristicas?-->
+					<li>
+					Autocompletado
+					</li>
+					<img src="img/autocompletar.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Ayudas Emergentes
+					</li>
+					<img src="img/ayudas.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Plantillas de Comandos
+					</li>
+					<img src="img/comandos.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Coloreado de Sintaxis
+					</li>
+					<img src="img/coloreado.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Resaltado de bloques lógicos
+				    </li>
+					<img src="img/resaltado.jpeg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Indentado Inteligente
+					</li>
+					<li>
+					Listados de funciones, operadores y variables
+					</li>
+					<li>
+					Permite generar y editar el diagrama de flujo del algoritmo
+					</li>
+					<img src="img/diagrama_flujo.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Puede trabajar con diagramas clásicos y de Nassi-Shneiderman
+					</li>
+					<img src="img/diagrama_nassi.png" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Permite la edición simultánea de múltiples algoritmos
+					</li>
+					<li>
+					El pseudo-lenguaje utilizado es configurable
+					</li>
+					<li>
+					Ofrece perfiles de configuración predefinidos para numerosas instituciones
+					</li>
+					<img src="img/perfiles.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Puede interpretar (ejecutar) los algoritmos escritos
+					</li>
+					<li>
+					Puede modificar el algoritmo y ver los cambios en la ejecución inmediatamente (sin reingresar los datos)
+					</li>
+					<li>
+					Permite modificar uno o más datos selectos de una ejecución ya finalizada para observar cómo varían los resultados
+					</li>
+					<li>
+					Permite deshacer una ejecución para reiniciarla o repetirla desde un punto arbitrario
+					</li>
+					<li>
+					Permite ejecutar el algoritmo paso a paso controlando la velocidad e inspeccionando variables y expresiones
+					</li>
+					<img src="img/paso_a_paso.jpg" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Puede confeccionar automáticamente una tabla de prueba de escritorio
+					</li>
+					<li>
+					Ofrece un modo especial en el que describe las acciones realizadas en cada paso
+					</li>
+					<li>
+					Determina y marca claramente los errores
+					</li>
+					<li>
+					Señala errores de sintaxis en tiempo real (mientras escribe)
+					</li>
+					<img src="img/errores.png" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Señala claramente errores en tiempo de ejecucion
+					</li>
+					<li>
+					Ofrece descripciones detalladas de cada error, con sus causas y soluciones más frecuentes.
+					</li>
+					<img src="img/errores_ejecucion.png" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Permite convertir el algoritmo de pseudocodigo a código numerosos lenguajes de programación
+					(C, C++, C#, Java, JavaScript, MatLab, Pascal, PHP, Python 2, Python 3, QBasic Visual Basic)
+					</li>
+					<img src="img/lenguajes.png" alt="foto de perfil"
+					style="max-width:100%; width:auto; height:auto; border-radius: 10px; ">
+					<li>
+					Ofrece un sistema de ayuda integrado acerca del pseudocódigo y el uso del programa
+					</li>
+					<li>
+					Incluye un conjunto de ejemplos de diferentes niveles de dificultad
+					</li>
+					<li>
+					Es multiplataforma (probado en Microsoft Windows, GNU/Linux y Mac OS X)
+					</li>
+					<li>
+					Es totalmente libre y gratuito (licencia GPLv2)
+					</li>
+					
 				</div>
-				<div>
-					<h2>-Oracle</h2>
-					<p>
-						Oracle es una herramienta para la gestión de bases de datos, usada principalmente por las
-						grandes empresas
-						para que estas puedan controlar y gestionar una gran cantidad de contenidos desde un solo
-						archivo.
-					</p>
-				</div>
-				<div>
-					<h2>-MySQL</h2>
-					<p>
-						MySQL sirve para almacenar toda la información que se desee en bases de datos relacionales, como
-						también para
-						administrar todos estos datos sin apenas complicaciones gracias a su interfaz visual y a todas
-						las opciones y
-						herramientas de las que dispone.
-					</p>
-				</div>
-
-				<br>
-
-				<div>
-					<h1>NoSQL</h1>
-					NoSQL (a veces llamado "no solo SQL") es una amplia clase de sistemas de gestión de bases de datos
-					que
-					difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos
-					importantes,
-					siendo el más destacado que no usan SQL como lenguaje principal de consultas.
-				</div>
-				<div>
-					<h2>-Redis</h2>
-					<p>
-						Redis es un motor de base de datos en memoria, basado en el almacenamiento en tablas de hashes
-						(clave/valor)
-						pero que opcionalmente puede ser usada como una base de datos durable o persistente.
-					</p>
-				</div>
-				<div>
-					<h2>-Mongo DB</h2>
-					<p>
-						MongoDB es una base de datos distribuida, basada en documentos y de uso general que ha sido
-						diseñada para
-						desarrolladores de aplicaciones modernas y para la era de la nube.
-					</p>
-				</div>
-				<div>
-					<h2>-Firebase</h2>
-					<p>
-						Firebase Realtime Database es una base de datos alojada en la nube. Los datos se almacenan en
-						formato JSON
-						y se sincronizan en tiempo real con cada cliente conectado.
-					</p>
-				</div>
+				
 			</div>
 
-			<!--Estructuras de Control y Bucles-->
+			<!--Funciones PSeInt(Estructuras de Control y Bucles)-->
 
-
-			<!-- Aquí escribimos lo que se mostrará sobre programación en el menú "programación"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
-				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
-				 de la barra de búsqueda >
-			-->
 			<div data-categoria="funciones pseint"
 				data-etiquetas="funciones Funciones escribir Escribir leer Leer asignar Asignar
 					condicionales Condicionales repetitivas Repetitivas Si-Entonces si-entonces segun Segun Mientras mientras Repetir repetir para Para Funcion funcion"
@@ -536,14 +545,8 @@
 						style="max-width:60%; width:auto; height:auto; border-radius: 10px;">
 				</div>
 			</div>
-			<!--Desarrollo Web-->
+			<!--Proyecto-->
 
-
-			<!-- Aquí escribimos lo que se mostrará sobre desarrollo web en el menú "desarrollo web"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
-				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
-				 de la barra de búsqueda >
-			-->
 			<div data-categoria="proyecto"
 				data-etiquetas="html HTML 5 JavaScript javascript JAVASCRIPT vanilla VANILLA CSS3 css3 webapps WEBAPPS"
 				data-descripcion="">
@@ -587,13 +590,9 @@
 				</div>
 			</div>
 
-			<!-- Contacto -->
+			<!-- Tutoriales -->
 
-			<!-- Aquí escribimos lo que se mostrará sobre contacto en el menú "contacto"
-				Usamos el atributo data- para indicar a qué categoría pertenece este div (data-categoria),
-				 y para vincular unas etiquetas especificas (data-etiquetas) para poder encontrar este div a través
-				 de la barra de búsqueda >
-			-->
+
 			<div data-categoria="tutoriales"
 				data-etiquetas="contacto CONTACTO autor AUTOR acerca de ACERCA DE sobre mi SOBRE MI"
 				data-descripcion="">
@@ -621,36 +620,13 @@
 
 		<footer class="contenedor">
 			<!-- En el footer añadimos el enlace a la página de donde obtuve el fondo de la página web.
-				También añadimos los iconos de las redes sociales, pero con un mensaje de alerta porque ahora mismo
-				no tengo redes sociales
 			 -->
 			<div class="titulo">
 				<h1>
 					<a href='https://www.freepik.es/vectores/fondo'>Imagen de fondo</a>
 				</h1>
 			</div>
-			<div class="redes-sociales">
-				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)');	event.preventDefault();" href="#"
-						target="_blank" class="twitter">
-						<i class="fab fa-twitter"></i>
-
-					</a>
-				</div>
-				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#"
-						target="_blank" class="facebook">
-						<i class="fab fa-facebook-f"></i>
-
-					</a>
-				</div>
-				<div class="contenedor-icono">
-					<a onclick="alert('(Estamos trabajando en ello... 🛠️💻)'); event.preventDefault();" href="#"
-						target="_blank" class="instagram">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</div>
-			</div>
+		
 		</footer>
 	</div>
 
